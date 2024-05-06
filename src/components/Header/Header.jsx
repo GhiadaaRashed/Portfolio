@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import photo from '../../assets/photo2.png'
+import photo from '../../assets/images/photo2.png'
 import { FaGithub } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa";
@@ -15,7 +15,7 @@ const Header = () => {
       <div className="headercontainer">
         <h1>Front-End react developer 👋</h1>
         <p>Hi,Iam Ghaidaa Rashed. A front-end react developer based in Syria</p>
-        <div className="git">
+        <div className="headergit">
         <a href="https://github.com/GhiadaaRashed"><FaGithub/></a>
         </div>
         <div className="tech-stack">

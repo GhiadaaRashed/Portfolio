@@ -5,11 +5,10 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { BsBoxArrowUpRight } from "react-icons/bs";;
 import { useRef } from 'react';
-import { render } from 'react-dom';
-
-
-
 const ProjCard = ({ img, title, dis, lan, href1, href2 }) => {
+  img.map(e=>{
+    console.log(e)
+  })
   let image = useRef(null)
   const prev = () => {
     image.current.scrollLeft -= 250

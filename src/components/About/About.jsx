@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import coflap from '../../assets/alapwithcoffe2.jpg'
+import coflap from '../../assets/images/alapwithcoffe2.jpg'
 const About = () => {
   return (
     <div className='about' id='about'>

@@ -1,12 +1,11 @@
 
 import './projects.css'
 import ProjCard from '../ProjCard/ProjCard'
+import {book1,book2,book3,food1,food2,food3,food4,fur1,fur2,fur3,gpt1,gpt2,gpt3,rent1,rent2,travel1,travel2,travel3,} from './import'
 const Projects = () => {
     const objectcard = [{
         images: [
-            '../../../public/book1.png',
-            '../../../public/book2.png',
-            '../../../public/book3.png',
+            book1,book2,book3,
         ],
         title: 'B-world',
         dis: 'A website for displaying books, I created it using React Vite, it was programmed as an application to use the API',
@@ -15,9 +14,7 @@ const Projects = () => {
         href2: 'https://books-olive.vercel.app/'
     }, {
         images: [
-            '../../../public/gpt1.png',
-            '../../../public/gpt2.png',
-            '../../../public/gpt3.png',
+            gpt1,gpt2,gpt3,
         ],
         title: 'Gpt3',
         dis: 'This website was programmed using React Vite, focusing on CSS properties',
@@ -26,9 +23,7 @@ const Projects = () => {
         href2: 'https://gpt3-one-kappa.vercel.app/'
     }, {
         images: [
-            '../../../public/travel1.png',
-            '../../../public/travel2.png',
-            '../../../public/travel3.png',
+            travel1,travel2,travel3,
         ],
         title: 'Travel',
         dis: 'This site displays the best places for travel ',
@@ -38,10 +33,7 @@ const Projects = () => {
     },
     {
         images: [
-            '../../../public/food1.png',
-            '../../../public/food2.png',
-            '../../../public/food3.png',
-            '../../../public/food4.png',
+            food1,food2,food3,food4,
         ],
         title: 'Organick',
         dis: 'This site displays the best healthy foods',
@@ -51,9 +43,7 @@ const Projects = () => {
     },
     {
         images: [
-            '../../../public/fur1.png',
-            '../../../public/fur2.png',
-            '../../../public/fur3.png',
+            fur1,fur2,fur3,
         ],
         title: 'Furniture',
         dis: 'This site displays the best furniture for sale',
@@ -63,8 +53,7 @@ const Projects = () => {
     },
     {
         images: [
-            '../../../public/rent1.png',
-            '../../../public/rent2.png',
+            rent1,rent2,
         ],
         title: 'Rent up',
         dis: 'This site displays the best houses for rent',
