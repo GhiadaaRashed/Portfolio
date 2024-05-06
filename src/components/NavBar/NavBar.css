@@ -1,0 +1,123 @@
+.navbar {
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 3;
+}
+
+#dark .nav-bg {
+    background-color: rgb(116, 97, 121);
+}
+#light .nav-bg {
+    background-color: rgb(228, 197, 236);
+}
+
+.navul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+#dark .navul li:hover {
+    border-bottom: 3px solid rgba(241, 215, 247, 1);
+}
+
+#light .navul li:hover {
+    border-bottom: 3px solid rgba(79, 44, 86, 1);
+}
+
+.navbar h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.navbar .navul li a {
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#light .navbar .navul li a {
+    color: rgb(15, 9, 17);
+}
+
+#dark .navbar .navul li a {
+    color: white;
+}
+
+.navbar .icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navcontainer {
+    display: flex;
+    gap: 40px;
+}
+
+.slid {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cancel {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+@media screen and (max-width:700px) {
+    .navcontainer {
+        flex-direction: column;
+        gap: 50px;
+        position: fixed;
+        right: -888px;
+        top: 0;
+        width: 256px;
+        height: 100vh;
+        z-index: 5;
+        padding: 30px 20px;
+        transition: all 0.5s linear;
+    }
+
+    .navcontainer.active {
+        right: 0;
+    }
+
+    .navul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cancel {
+        display: block;
+        font-size: 35px;
+    }
+
+    .slid {
+        display: block;
+    }
+
+    .navul{
+        font-size: 30px;
+    }
+    #light .icon{
+        border-top: 2px solid black;
+        padding: 10px;
+        gap: 30px;
+    }
+    #dark .icon{
+        border-top: 2px solid white;
+        padding: 10px;
+        gap: 30px;
+    }
+}

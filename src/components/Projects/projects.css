@@ -1,0 +1,20 @@
+.projects{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+}
+.projects .port{
+    font-size: 30px;
+    color: rgb(92, 92, 254);
+}
+.projects .projectdef{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

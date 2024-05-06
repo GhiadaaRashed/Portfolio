@@ -1,0 +1,45 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    line-height: 25px;
+    padding:100px 10px ;
+}
+.contact .contactandlocation{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.contact .contactandlocation .contain{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+#light .contact .font{
+    font-size: 25px;
+    color:rgba(53, 41, 53, 1) ;
+}
+#dark .contact .font{
+    font-size: 25px;
+    color: rgba(224, 232, 233, 1);
+}
+.contact h3{
+    color: rgb(92, 92, 254);
+}
+#light .contact h2{
+    color: rgba(53, 41, 53, 1);
+}
+#dark .contact h2{
+    color: rgba(255, 207, 255, 1);
+}
+@media screen and (max-width:400px){
+    .contact .contactandlocation{
+        display: flex;
+        gap: 30px;
+    }
+}
