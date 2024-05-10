@@ -101,6 +101,12 @@
     color: rgba(30, 16, 30, 1);
     background-color: rgba(241, 215, 247, 1);
 }
+.git5{
+    transition: .4s;
+}
+.git5:hover{
+    transform: scale(1.1);
+}
 
 #light .headercontainer button {
     color: rgba(241, 215, 247, 1);

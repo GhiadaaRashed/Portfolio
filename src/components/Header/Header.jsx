@@ -16,7 +16,7 @@ const Header = () => {
         <h1>Front-End react developer 👋</h1>
         <p>Hi,Iam Ghaidaa Rashed. A front-end react developer based in Syria</p>
         <div className="headergit">
-        <a href="https://github.com/GhiadaaRashed"><FaGithub/></a>
+        <a href="https://github.com/GhiadaaRashed"><FaGithub className='git5'/></a>
         </div>
         <div className="tech-stack">
       <div className="tech-info">

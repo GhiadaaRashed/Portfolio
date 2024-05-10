@@ -25,3 +25,9 @@
 #light .footera{
     color:rgb(202, 129, 202)  ;
 }
+.footera{
+    transition: .4s;
+}
+.footera:hover{
+    transform: scale(1.25);
+}
